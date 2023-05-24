@@ -3,7 +3,7 @@
 - I have created a docker-compose.yml and a Dockerfile for this project.
 
 ### Project Overview:
-![Project Diagram]()
+![Project Diagram](https://github.com/ahsan598/docker-compose/blob/main/after-theme-applied.jpg) (https://github.com/ahsan598/docker-compose/blob/main/before-theme-applied.jpg)
 
 ## Dockerfile
 
@@ -37,4 +37,4 @@ You've successfully installed and activated a new theme in your own custom image
 - If we exit (ctrl-c) and then `docker-compose down` it will delete containers,
 but not the volumes, so on next `docker-compose up` everything will be as it was.
 
-#credits: @bretfisher from the course Docker Mastery: with Kubernetes + Sawrn, Udemy
+##### credits: @bretfisher from the course Docker Mastery: with Kubernetes + Sawrn, Udemy
