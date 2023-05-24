@@ -3,7 +3,11 @@
 - I have created a docker-compose.yml and a Dockerfile for this project.
 
 ### Project Overview:
-![Project Diagram](https://github.com/ahsan598/docker-compose/blob/main/after-theme-applied.jpg) (https://github.com/ahsan598/docker-compose/blob/main/before-theme-applied.jpg)
+##### Before applying theme to drupal
+![Project Diagram](https://github.com/ahsan598/docker-compose/blob/main/before-theme-applied.jpg)
+##### After applying theme to drupal
+![Project Diagram](https://github.com/ahsan598/docker-compose/blob/main/after-theme-applied.jpg) 
+
 
 ## Dockerfile
 
