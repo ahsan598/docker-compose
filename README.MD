@@ -1,6 +1,9 @@
 # Build a Compose File For a Multi-Container Project
 
-- I have created a docker-compose.yml and a Dockerfile for this project.
+- Building a basic compose file for a Drupal content management system website and uses a mariadb database running behind it. 
+- I have created a `docker-compose file` and a `Dockerfile` for this project.
+1. `docker-compose file` - Defines the services that make up your app in so they can be run together in an isolated environment.
+2. `Dockerfile` - Defines your app’s environment with a so it can be reproduced anywhere.
 
 ### Project Overview:
 ##### Before applying theme to drupal
@@ -41,4 +44,7 @@ You've successfully installed and activated a new theme in your own custom image
 - If we exit (ctrl-c) and then `docker-compose down` it will delete containers,
 but not the volumes, so on next `docker-compose up` everything will be as it was.
 
-##### credits: @bretfisher from the course Docker Mastery: with Kubernetes + Sawrn, Udemy
+
+
+
+##### Learned from the course Docker Mastery: with Kubernetes + Sawrn by @bretfisher, Udemy
