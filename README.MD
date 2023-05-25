@@ -1,6 +1,7 @@
 # Build a Compose File For a Multi-Container Project
 
-- Building a basic compose file for a Drupal content management system website and uses a mariadb database running behind it. 
+- Building a basic compose file for a Drupal content management system website and uses a mariadb database running behind it.
+- Adding a themes template so we can change the template of the site.
 - I have created a `docker-compose file` and a `Dockerfile` for this project.
 1. `docker-compose file` - Defines the services that make up your app in so they can be run together in an isolated environment.
 2. `Dockerfile` - Defines your app’s environment with a so it can be reproduced anywhere.
